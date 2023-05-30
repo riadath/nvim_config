@@ -29,6 +29,7 @@ local path_to_desktop = os.getenv("USERPROFILE") .. "\\Documents\\CODE_DRIVE"
 
 local vim_enter_group = vim.api.nvim_create_augroup("vim_enter_group", { clear = true })
 
+
 vim.api.nvim_create_autocmd(
     {"VimEnter"},
     { pattern = "*", command = "cd " .. path_to_desktop, group = vim_enter_group }

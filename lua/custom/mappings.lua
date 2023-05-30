@@ -6,6 +6,7 @@ M.general = {
     [";"] = { ":", "enter command mode", opts = { nowait = true } },
   },
 }
+-- change copilot#Accept keybind to tab
 
 -- more keybinds!
 
