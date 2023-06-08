@@ -57,6 +57,7 @@ local plugins = {
     lazy = false,
     opts = overrides.copilot,
   },
+  "terrortylor/nvim-comment",
 
   -- To make a plugin not be loaded
   -- {

@@ -65,7 +65,7 @@ M.copilot = {
     keymap = {
       jump_prev = "[[",
       jump_next = "]]",
-      accept = "<Right>",
+      accept = "<C-Enter>",
       refresh = "gr",
       open = "<M-CR>"
     },
@@ -79,7 +79,7 @@ M.copilot = {
     auto_trigger = true,
     debounce = 75,
     keymap = {
-      accept = "<C-Enter>",
+      accept = "<C-Right>",
       accept_word = false,
       accept_line = false,
       next = "<M-]>",
@@ -100,5 +100,4 @@ M.copilot = {
   },
   
 }
-
 return M
