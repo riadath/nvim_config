@@ -158,12 +158,12 @@ local default_plugins = {
     dependencies = {
       {
         -- snippet plugin
-        "L3MON4D3/LuaSnip",
-        dependencies = "rafamadriz/friendly-snippets",
-        opts = { history = true, updateevents = "TextChanged,TextChangedI" },
-        config = function(_, opts)
-          require("plugins.configs.others").luasnip(opts)
-        end,
+        -- "L3MON4D3/LuaSnip",
+        -- dependencies = "rafamadriz/friendly-snippets",
+        -- opts = { history = true, updateevents = "TextChanged,TextChangedI" },
+        -- config = function(_, opts)
+        --   require("plugins.configs.others").luasnip(opts)
+        -- end,
       },
 
       -- autopairing of (){}[] etc
@@ -196,17 +196,6 @@ local default_plugins = {
     end,
     config = function(_, opts)
       require("cmp").setup(opts)
-    end,
-  },
-
-  {
-    "numToStr/Comment.nvim",
-    keys = { "gcc", "gbc" },
-    init = function()
-      require("core.utils").load_mappings "comment"
-    end,
-    config = function()
-      require("Comment").setup()
     end,
   },
 
