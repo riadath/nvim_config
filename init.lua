@@ -35,3 +35,4 @@ vim.api.nvim_create_autocmd(
     { pattern = "*", command = "cd " .. path_to_desktop, group = vim_enter_group }
 )
 require('nvim_comment').setup()
+require('auto-save').setup()

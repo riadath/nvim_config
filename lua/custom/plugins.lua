@@ -58,6 +58,7 @@ local plugins = {
     opts = overrides.copilot,
   },
   "terrortylor/nvim-comment",
+  "Pocco81/auto-save.nvim",
 
   -- To make a plugin not be loaded
   -- {
